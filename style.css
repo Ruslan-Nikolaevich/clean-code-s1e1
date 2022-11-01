@@ -37,7 +37,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .section-adding-element-to-list__task-row-wrapper {
@@ -137,7 +137,7 @@ label[for="new-task"] {
 }
 
 .global-style-wrapper-complete-task > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete img {
@@ -152,18 +152,18 @@ label[for="new-task"] {
 
 /* Completed */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .wrapper-style-completed-tasks .global-style-wrapper-complete-task input[type=text] {
-  display: none
+  display: none;
 }
 
 .wrapper-style-completed-tasks .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .wrapper-style-completed-tasks .edit-mode label {
